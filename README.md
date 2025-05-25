@@ -8,6 +8,10 @@ pip install -r requirements.txt
 
 Train `HandManipulateBlockRotateXYZ-v1` with 16 environments
 ```
-python test_tqc_her.py --env-id HandManipulateBlockRotateXYZ-v1 --num-envs 16
+python tqc_her_base.py --env-id HandManipulateBlockRotateXYZ-v1 --seed 4 --num-envs 16
 ```
 
+Train `HandManipulateBlock_ContinuousTouchSensors-v1` with 16 environments
+```
+python tqc_her_base.py --env-id HandManipulateBlock_ContinuousTouchSensors-v1 --seed 4 --num-envs 16
+```
